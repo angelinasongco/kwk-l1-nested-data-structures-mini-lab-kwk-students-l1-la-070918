@@ -44,7 +44,6 @@ cities = {
     :website => "http://www.cityofchicago.org/"
   }
 }
-
 end
   cities.each do |city|
     puts "#{city}"
