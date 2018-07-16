@@ -46,6 +46,6 @@ cities = {
 }
 end
 
-  cities.each do |cities|
-    puts "#{cities}"
+  cities.each do |place|
+    puts "#{place}"
 end
