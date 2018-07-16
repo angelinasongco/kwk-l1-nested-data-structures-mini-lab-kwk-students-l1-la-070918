@@ -44,6 +44,6 @@ puts sandwich_request(["ham","swiss","mayo"])
 #   }
 # }
 
-# def city_populations(cities)
+def city_populations(cities)
   cities.each do |city|
-# end
+end
