@@ -44,7 +44,7 @@ cities = {
   }
 }
 
-def city_populations(cities)
+def city_populations
   cities.each do |city|
     puts "#{city}"
 end
