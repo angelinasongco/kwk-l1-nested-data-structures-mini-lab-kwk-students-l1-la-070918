@@ -21,6 +21,7 @@
 # puts sandwich_request(["ham","swiss","mayo"])
 
 # example city_info hash
+def city_populations
 cities = {
   :new_york => { 
     :mayor => "Bill DeBlasio",
@@ -44,7 +45,7 @@ cities = {
   }
 }
 
-def city_populations
+
   cities.each do |city|
     puts "#{city}"
 end
