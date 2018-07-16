@@ -45,7 +45,7 @@ cities = {
   }
 }
 end
-  cities.each do |place|
+  cities.each do |mayor,population,website|
     puts "#{place}"
 end
 
