@@ -6,19 +6,19 @@
 #     ["mayo", "mustard", "tabasco"]
 # ]
 
-def sandwich_request(ingredients, order) 
-  ingredients = [
-    ["rye", "sourdough", "baguette"],
-    ["ham", "salami", "turkey"],
-    ["swiss", "munster", "cheddar"],
-    ["mayo", "mustard", "tabasco"]
-    ]
-   ingredients.each do |
+# def sandwich_request(ingredients, order) 
+#   ingredients = [
+#     ["rye", "sourdough", "baguette"],
+#     ["ham", "salami", "turkey"],
+#     ["swiss", "munster", "cheddar"],
+#     ["mayo", "mustard", "tabasco"]
+#     ]
+#   ingredients.each do |
    
-end    
-# end
-# end
-puts sandwich_request(["ham","swiss","mayo"])
+# end    
+# # end
+# # end
+# puts sandwich_request(["ham","swiss","mayo"])
 
 # example city_info hash
 # cities = {
@@ -46,4 +46,5 @@ puts sandwich_request(["ham","swiss","mayo"])
 
 def city_populations(cities)
   cities.each do |city|
+    puts "#{city}"
 end
